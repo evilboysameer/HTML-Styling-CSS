@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background-color: bisque;
+        
+        }
+        .container h1{
+            color: antiquewhite;
+            padding: 20px;
+            font-style: italic;
+            text-align: center;
+            font-size: 60px;
+            
+           
+        }
+        
+        .container img{
+            display: block;
+            margin:-95px 20px 0px 1830px ;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+
+        }
+        .container{
+            
+            background-color: black;
+            margin: 0px 3px 11px 0px;
+            border-radius: 4px;  
+          border: white solid 1px;
+          color: antiquewhite;
+          
+
+          font-style: italic;
+
+        }
+        .personal{
+            padding: 0px;
+            margin: 20px;
+            float: left;
+            font-size: larger;
+
+        }
+        .container strong{
+            margin: 0px 0px 0px 1875px;
+            font-size: 35px;
+            
+        }
+        
+        
+        .line{
+            margin-left: 10px;
+        }
+        .line strong{
+            font-size: larger;
+        }
+
+        .line p{
+            font-size: 20px;
+        }
+
+        
+    </style> 
+    
+</head>
+<body>
+  
+    
+    
+    <div class="container">
+        <h1><i><u>My Profile</u></i></h1>
+        <img src="img/sameer.jpeg" alt=" load error" > 
+         <strong>Sameer</strong>
+    </div>
+    <div class="line">
+        
+        
+            <strong>About me:-</strong>
+            <p>Hello friends my name is Sameer. I completed my schooling from Good samaritain school.I live in Delhi.Currently parsuting my bachlor of technology in electronic and  communication form Jamia Hamdard University.  </p>
+      
+        
+        <div class="personal">
+           
+                
+                
+                <strong>My personal info:-</strong>
+                <ul>
+                    <li>Name: Sameer</li>
+                    <li>Age: 22</li>
+                    <li>social activity: Instagram, Whatsapp, Telegram</li>
+                    <li>Relation: Single</li>
+                    <li>religion: Muslim</li>
+                    
+                </ul>
+            
+                
+                <strong>Hobbies:-</strong>
+                <ul>
+                    
+                    <li>Watching: web series,anime,movies, video</li>
+                    <li>Listening: music, shayri</li>
+                    <li>Sleeping</li>
+                    <li>Using Phone</li>
+                    <li>traveling </li>
+                </ul>
+            
+                
+                <strong>Friends and Family:-</strong>
+                <ul>
+                    <li>In my family there are 5 members</li>
+                    <li>my Dad(Vashil Ahamd) </li> 
+                    <li>my Mommy(Salma) </li> 
+                    <li>my elder sister Heena </li>
+                    <li>my second  elder sister Jeba </li>
+                    <li>my elder brother Sahil </li> 
+                    
+                </ul>
+            
+        </div>
+    </div>
+    
+        
+        
+</body>
+</html>
